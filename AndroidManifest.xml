@@ -675,6 +675,7 @@
                 android:resource="@id/sound_settings" />
         </activity>
 
+
         <!-- Keep compatibility with old shortcuts. -->
         <activity-alias android:name="SoundSettings"
                 android:label="@string/sound_settings"
@@ -1661,6 +1662,8 @@
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
                 android:resource="@id/sound_settings" />
         </activity>
+
+        <activity android:name=".paranoid.Halo" />
 
         <activity android:name="Settings$UserSettingsActivity"
                 android:uiOptions="splitActionBarWhenNarrow"
